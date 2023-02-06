@@ -2,7 +2,7 @@ import express, { Application } from "express";
 import defaultRoute from "./routes/default";
 
 const app: Application = express();
-const port: number = parseInt(process.env.PORT) || 4131;
+const port: number = parseInt(process.env.PORT) || 443;
 
 app.set("views", "views");
 app.set("view engine", "pug");
